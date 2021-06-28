@@ -1,0 +1,88 @@
+{
+  "aristas": [  
+   {
+      "origen": {
+        "numero": 1,
+        "indice": 0,
+        "visitado": false,
+        "vecinos": []
+      },
+      "destino": {
+        "numero": 2,
+        "indice": 1,
+        "visitado": false,
+        "vecinos": []
+      }
+    },
+    {
+      "origen": {
+        "numero": 1,
+        "indice": 0,
+        "visitado": false,
+        "vecinos": []
+      },
+      "destino": {
+        "numero": 3,
+        "indice": 4,
+        "visitado": false,
+        "vecinos": []
+      }
+    }, 
+    {
+      "origen": {
+        "numero": 2,
+        "indice": 1,
+        "visitado": false,
+        "vecinos": []
+      },
+      "destino": {
+        "numero": 5,
+        "indice": 4,
+        "visitado": false,
+        "vecinos": []
+      }
+    },
+    {
+      "origen": {
+        "numero": 5,
+        "indice": 4,
+        "visitado": false,
+        "vecinos": []
+      },
+      "destino": {
+        "numero": 4,
+        "indice": 3,
+        "visitado": false,
+        "vecinos": []
+      }
+    },
+    {
+      "origen": {
+        "numero": 2,
+        "indice": 1,
+        "visitado": false,
+        "vecinos": []
+      },
+      "destino": {
+        "numero": 3,
+        "indice": 2,
+        "visitado": false,
+        "vecinos": []
+      }
+    },
+    {
+      "origen": {
+        "numero": 4,
+        "indice": 3,
+        "visitado": false,
+        "vecinos": []
+      },
+      "destino": {
+        "numero": 3,
+        "indice": 2,
+        "visitado": false,
+        "vecinos": []
+      }
+    }
+  ]
+}
