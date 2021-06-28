@@ -1,0 +1,21 @@
+Un conjunto dominante en un grafo es un conjunto A de v´ertices tal que todo v´ertice que no
+est´a en A tiene un vecino en A. El problema de encontrar un conjunto dominante de menor
+tama˜no posible se llama el problema de conjunto dominante m´ınimo, y su versi´on de decisi´on
+es NP-completa. El trabajo pr´actico consiste en implementar un algoritmo goloso para este
+problema.
+
+Se debe implementar una aplicaci´on que, a partir de los datos del grafo, utilice un algoritmo
+goloso para encontrar un conjunto dominante de tama˜no tan peque˜no como pueda. La aplicaci´on debe informar el conjunto obtenido. Para el ingreso del grafo, se puede implementar
+cualquiera de estas dos opciones:
+1. Dar al usuario la opci´on de ir cargando el grafo manualmente, con botones para agregar
+v´ertices y para agregar aristas. Cuando se agrega una arista, se debe pedir al usuario
+los dos extremos de la arista (que deben ser v´ertices existentes).
+2. Leer el grafo desde un archivo, con el formato que el grupo determine. Puede ser un
+archivo de texto plano o un archivo JSON, a elecci´on del grupo.
+
+Como objetivos opcionales no obligatorios, se pueden contemplar los siguientes elementos:
+1. Incorporar alg´un elemento aleatorio al algoritmo goloso, de modo tal de entregar un
+conjunto dominante distinto en cada ejecuci´on o entregar m´as de un conjunto dominante.
+2. Visualizar el grafo y el conjunto dominante obtenido en la interfaz de usuario.
+3. Implementar un algoritmo basado en backtracking para este problema y comparar los
+resultados de los dos algoritmos.
